@@ -1,0 +1,8 @@
+<div style="width:20px;height:20px;background-color:red;" *ngIf="status === 'eteint'">
+
+</div><li>
+    
+ <h3 [ngStyle]="{color : getColor()}"> est un appareil : {{appareilName}} -- status : {{getStatus()}}</h3>
+ <input type="text" [(ngModel)]="appareilName">
+ 
+</li>
